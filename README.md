@@ -14,14 +14,6 @@ PHP client library for the dotMailer v2 (REST) API with **multiple accounts supp
 
 Type hinting support for objects and resources (not yet for arrays).
 
-## Installation
-
-The best way to install is to use the [Composer](https://getcomposer.org/) dependency manager.
-
-```
-php composer.phar require romanpitak/dotmailer-api-v2-client
-```
-
 ## Usage
 
 ### Single account usage
