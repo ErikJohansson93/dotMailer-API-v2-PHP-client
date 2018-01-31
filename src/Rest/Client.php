@@ -30,10 +30,10 @@ class Client implements IClient
     {
 
         $this->restClient = new \RestClient\Client(array(
-            Request::BASE_URL_KEY => 'https://api.dotmailer.com/v2',
+            Request::BASE_URL_KEY => 'https://r2-api.dotmailer.com/v2',
             Request::USERNAME_KEY => $username,
             Request::PASSWORD_KEY => $password,
-            Request::USER_AGENT_KEY => 'romanpitak/dotmailer-api-v2-php-client',
+            Request::USER_AGENT_KEY => 'ErikJohansson93/dotMailer-API-v2-PHP-client',
             Request::HEADERS_KEY => array(
                 'Content-Type' => 'application/json'
             ),
